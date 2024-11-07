@@ -1,0 +1,47 @@
+.work {
+  background-color: rgba(128, 128, 128, 0.11);
+  margin-left: 140px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.work-exp hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.work .vertical-timeline-element-title {
+  color: #138781b2;
+}
+
+.work .vertical-timeline-element-subtitle {
+  color: #1e1e2c5d;
+}
+
+.work .para {
+  color: rgba(0, 0, 0, 0.788);
+}
+
+#dark .work-exp h2 {
+  color: greenyellow;
+}
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .work hr {
+    width: 280px;
+  }
+}
