@@ -21,9 +21,9 @@ module.exports.sendEmailController = (req, res) => {
     }
 
     transporter.sendMail({
-      to: "jaggi.mayank19@gmail.com",
-      from: `"${email} on behalf of Verified Sender" <${"jaggi.mayank19@gmail.com"}>`,
-      subject: "Portfolio notification",
+      to: process.env.EMAIL,
+      from: `${email} 'on behalf of Verified Sender' <${process.env.EMAIL}>`,
+      subject: process.env.SUBJECT,
       html: `
       <h5>Detail Information</h5>
       <ul>

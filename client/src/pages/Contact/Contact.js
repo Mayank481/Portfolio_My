@@ -58,9 +58,21 @@ export const Contact = () => {
                 <div className="row">
                   <div className="row">
                     <h6>
-                      Contact with
-                      <FaLinkedin color="blue" size={30} className="ms-2" />
-                      <FaGithub color="black" size={30} className="ms-2" />
+                      Contact with:
+                      <a href="https://www.linkedin.com/in/samartha-agrawal-807b06165/">
+                        <FaLinkedin
+                          color="blue"
+                          size={30}
+                          className="ms-2 FaLinkedin"
+                        />
+                      </a>
+                      <a href="https://github.com/samarthaagrawal29">
+                        <FaGithub
+                          color="black"
+                          size={30}
+                          className="ms-2 icon"
+                        />
+                      </a>
                     </h6>
                   </div>
                   <div className="row px-3 mb-4">
