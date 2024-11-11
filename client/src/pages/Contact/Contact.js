@@ -4,7 +4,11 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import "./Contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { contact_us_IMG } from "../../assets/links/links";
+import {
+  contact_us_IMG,
+  GitHub_URL,
+  linkedin_URL,
+} from "../../assets/links/links";
 export const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -59,14 +63,14 @@ export const Contact = () => {
                   <div className="row">
                     <h6>
                       Contact with:
-                      <a href="https://www.linkedin.com/in/samartha-agrawal-807b06165/">
+                      <a href={linkedin_URL}>
                         <FaLinkedin
                           color="blue"
                           size={30}
                           className="ms-2 FaLinkedin"
                         />
                       </a>
-                      <a href="https://github.com/samarthaagrawal29">
+                      <a href={GitHub_URL}>
                         <FaGithub
                           color="black"
                           size={30}

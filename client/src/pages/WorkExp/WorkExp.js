@@ -31,8 +31,8 @@ export const WorkExp = () => {
                 Accenture solutions Pvt Ltd
               </h4>
               <p className="para">
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Backend architect blending creativity, design, and technical
+                precision in programming language.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -50,8 +50,8 @@ export const WorkExp = () => {
                 Celebal Technologies Pvt Ltd
               </h4>
               <p className="para">
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Backend architect blending creativity, design, and technical
+                precision in programming language.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -69,8 +69,8 @@ export const WorkExp = () => {
                 MIPL solutions Pvt Ltd
               </h4>
               <p className="para">
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Backend architect blending creativity, design, and technical
+                precision in programming language.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -86,8 +86,8 @@ export const WorkExp = () => {
                 To The New Digital Pvt Ltd
               </h4>
               <p className="para">
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Backend architect blending creativity, design, and technical
+                precision in programming language.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>

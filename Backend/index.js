@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, "../client/build")));
-// console.log(__dirname);
+
 
 app.get("/", (req, res) => {
   res.send("Hello User");

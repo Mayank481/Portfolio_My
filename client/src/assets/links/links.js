@@ -13,4 +13,8 @@ export const Third_Project_IMG =
 //****** Others *****//
 
 export const whatsapp_API = "https://api.whatsapp.com/send?phone=8400547870";
-export const contact_us_IMG = "https://st4.depositphotos.com/20363444/29808/i/450/depositphotos_298083278-stock-photo-top-view-woman-pointing-finger.jpg"
+export const contact_us_IMG =
+  "https://st4.depositphotos.com/20363444/29808/i/450/depositphotos_298083278-stock-photo-top-view-woman-pointing-finger.jpg";
+export const linkedin_URL =
+  "https://www.linkedin.com/in/mayank-jaggi-967195182/";
+export const GitHub_URL = "https://github.com/Mayank481";
