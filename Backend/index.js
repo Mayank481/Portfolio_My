@@ -17,11 +17,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, "../client/build")));
 
-
-app.get("/", (req, res) => {
-  res.send("Hello User");
-});
-
 app.use("/api/v1", require("./routes"));
 
 app.get("*", (req, res) => {
